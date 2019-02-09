@@ -62,7 +62,7 @@ package:
 
 functions:
   redis:
-    handler: bin/redis
+    handler: bin/lambda
     vpc:
       securityGroupIds:
         - sg-943438ea
