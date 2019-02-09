@@ -1,13 +1,14 @@
 package main
 
 import (
+	"log"
+
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/go-redis/redis"
-	"log"
 )
 
 var (
